@@ -1,0 +1,25 @@
+{
+  "name": "xz1024.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "publish": "bash deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xz1024/xz1024.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xz1024/xz1024.github.io/issues"
+  },
+  "homepage": "https://github.com/xz1024/xz1024.github.io#readme",
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  }
+}
